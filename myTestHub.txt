@@ -20,6 +20,8 @@ longLabel A super-track of selected tracks
                 shortLabel Lamp5 example inside a super-track
                 longLabel This super-track-contained bigWig file is an example for Lamp5
                 type bigWig
+                autoScale on
+                alwaysZero on
                 visibility full
                 priority 10
 
@@ -29,6 +31,8 @@ longLabel A super-track of selected tracks
                 shortLabel Sncg example inside super-track
                 longLabel This super-track-contained bigWig file is an example for Sncg
                 type bigWig
+                autoScale on
+                alwaysZero on                
                 visibility full
                 priority 20
 
@@ -38,5 +42,7 @@ longLabel A super-track of selected tracks
                 shortLabel VIP example inside super-track
                 longLabel This super-track-contained bigWig file is an example for VIP
                 type bigWig
+                autoScale on
+                alwaysZero on
                 visibility full
                 priority 40
