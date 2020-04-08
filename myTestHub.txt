@@ -1,0 +1,40 @@
+hub PrimaryMotorCortexGrouping
+shortLabel Ephemeral PMC group
+longLabel A Group hub with Lamp5,Sncp and VIP tracks.
+genomesFile https://s3-us-west-2.amazonaws.com/hg38-mop-hub/genomes.txt
+email b.van_lew@lumc.nl
+useOneFile on
+
+genome hg38
+
+track PMCSuperTrack1
+superTrack on show
+shortLabel  Ex. superTrack on
+longLabel A super-track of selected tracks 
+
+                track Lamp5
+                parent PMCSuperTrack1
+                bigDataUrl https://s3-us-west-2.amazonaws.com/hg38-mop-tracks/Lamp5.bw?AWSAccessKeyId=AKIAIHTVXLKOY3WIFEBQ&Expires=1713635737&Signature=t8Q%2BcK1w5Sgyv%2BvQEtJbpTLCv%2FY%3D
+                shortLabel Lamp5 example inside a super-track
+                longLabel This super-track-contained bigWig file is an example for Lamp5
+                type bigWig
+                visibility full
+                priority 10
+
+                track Sncg
+                parent PMCSuperTrack1
+                bigDataUrl https://s3-us-west-2.amazonaws.com/hg38-mop-tracks/Sncg.bw?AWSAccessKeyId=AKIAIHTVXLKOY3WIFEBQ&Expires=1713635737&Signature=TnlH%2BLlio4Wif2zigSlJZnVxaIw%3D
+                shortLabel Sncg example inside super-track
+                longLabel This super-track-contained bigWig file is an example for Sncg
+                type bigwig
+                visibility full
+                priority 20
+
+                track VIP
+                parent PMCSuperTrack1
+                bigDataUrl https://s3-us-west-2.amazonaws.com/hg38-mop-tracks/Vip.bw?AWSAccessKeyId=AKIAIHTVXLKOY3WIFEBQ&Expires=1713635737&Signature=OrBSAqFrtgj6pmQiTmxqgJg8ydE%3D
+                shortLabel VIP example inside super-track
+                longLabel This super-track-contained bigWig file is an example for VIP
+                type bigwig
+                visibility full
+                priority 40
