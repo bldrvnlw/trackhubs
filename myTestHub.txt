@@ -10,7 +10,8 @@ genome hg38
 track PMCSuperTrack1
 superTrack on show
 shortLabel  Ex. superTrack on
-longLabel A super-track of selected tracks 
+longLabel A super-track of selected tracks
+html https://github.com/bldrvnlw/trackhubs/blob/master/README.md
 
                 track Lamp5
                 parent PMCSuperTrack1
