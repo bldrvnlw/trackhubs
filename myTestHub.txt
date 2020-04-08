@@ -3,6 +3,7 @@ shortLabel Ephemeral PMC group
 longLabel A Group hub with Lamp5,Sncp and VIP tracks.
 genomesFile https://s3-us-west-2.amazonaws.com/hg38-mop-hub/genomes.txt
 email b.van_lew@lumc.nl
+descriptionUrl https://github.com/bldrvnlw/trackhubs/blob/master/README.md
 useOneFile on
 
 genome hg38
@@ -11,7 +12,7 @@ track PMCSuperTrack1
 superTrack on show
 shortLabel  Ex. superTrack on
 longLabel A super-track of selected tracks
-html https://github.com/bldrvnlw/trackhubs/blob/master/README.md
+
 
                 track Lamp5
                 parent PMCSuperTrack1
