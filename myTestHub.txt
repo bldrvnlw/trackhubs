@@ -26,7 +26,7 @@ longLabel A super-track of selected tracks
                 bigDataUrl https://s3-us-west-2.amazonaws.com/hg38-mop-tracks/Sncg.bw?AWSAccessKeyId=AKIAIHTVXLKOY3WIFEBQ&Expires=1713635737&Signature=TnlH%2BLlio4Wif2zigSlJZnVxaIw%3D
                 shortLabel Sncg example inside super-track
                 longLabel This super-track-contained bigWig file is an example for Sncg
-                type bigwig
+                type bigWig
                 visibility full
                 priority 20
 
@@ -35,6 +35,6 @@ longLabel A super-track of selected tracks
                 bigDataUrl https://s3-us-west-2.amazonaws.com/hg38-mop-tracks/Vip.bw?AWSAccessKeyId=AKIAIHTVXLKOY3WIFEBQ&Expires=1713635737&Signature=OrBSAqFrtgj6pmQiTmxqgJg8ydE%3D
                 shortLabel VIP example inside super-track
                 longLabel This super-track-contained bigWig file is an example for VIP
-                type bigwig
+                type bigWig
                 visibility full
                 priority 40
