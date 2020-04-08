@@ -9,7 +9,7 @@ useOneFile on
 genome hg38
 
 track PMCSuperTrack1
-superTrack on
+superTrack on show
 shortLabel  Ex. superTrack on
 longLabel A super-track of selected tracks
 
